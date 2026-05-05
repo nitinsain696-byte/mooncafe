@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Cafe | Premium Coffee & Fresh Bites</title>
+    <meta name="description" content="Moonlight Cafe is a modern coffee shop landing page built with HTML, CSS and JavaScript.">
+
+    <!-- Font Awesome icons CDN for simple UI icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-mug-hot"></i>
+                Moonlight <span>Cafe</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content reveal">
+                <p class="hero-small">Freshly brewed. Beautifully served.</p>
+                <h1>Enjoy Premium Coffee Under the Moonlight</h1>
+                <p class="hero-text">
+                    Welcome to Moonlight Cafe, your cozy place for rich coffee, fresh snacks, sweet desserts, and peaceful evening vibes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-outline">Book Table</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container about-grid">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Cafe interior with coffee">
+                    <div class="experience-card">
+                        <strong>5+</strong>
+                        <span>Years of Taste</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <p class="section-label">About Us</p>
+                    <h2>More Than Coffee, It Is a Feeling</h2>
+                    <p>
+                        Moonlight Cafe is designed for coffee lovers, friends, students, and families who want a calm and premium cafe experience. We serve handcrafted beverages, fresh food, and warm hospitality every day.
+                    </p>
+                    <p>
+                        From hot cappuccino to chilled cold coffee, crispy sandwiches to sweet desserts, every item is prepared with quality ingredients and love.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Visit Us Today</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Menu Section -->
+        <section class="menu section" id="menu">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Special Menu</p>
+                    <h2>Our Customer Favorites</h2>
+                    <p>Freshly prepared items with premium taste and beautiful presentation.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <article class="menu-card reveal">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80" alt="Hot coffee cup">
+                        <div class="menu-info">
+                            <h3>Classic Coffee</h3>
+                            <p>Rich aroma, smooth flavor, and a perfect warm start.</p>
+                            <span>₹129</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="Cold coffee glass">
+                        <div class="menu-info">
+                            <h3>Cold Coffee</h3>
+                            <p>Chilled, creamy, refreshing, and perfect for sunny days.</p>
+                            <span>₹159</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=700&q=80" alt="Fresh sandwich">
+                        <div class="menu-info">
+                            <h3>Grilled Sandwich</h3>
+                            <p>Crispy bread filled with fresh vegetables and cheese.</p>
+                            <span>₹149</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" alt="Pizza slice">
+                        <div class="menu-info">
+                            <h3>Cheese Pizza</h3>
+                            <p>Soft base, tasty toppings, and loaded melted cheese.</p>
+                            <span>₹249</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=80" alt="Dessert bowl">
+                        <div class="menu-info">
+                            <h3>Sweet Dessert</h3>
+                            <p>Soft, creamy, and delicious dessert for a happy ending.</p>
+                            <span>₹179</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Why Choose Us</p>
+                    <h2>Premium Cafe Experience</h2>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card reveal">
+                        <i class="fa-solid fa-seedling"></i>
+                        <h3>Fresh Ingredients</h3>
+                        <p>We use quality beans, fresh bread, and clean ingredients.</p>
+                    </div>
+                    <div class="why-card reveal">
+                        <i class="fa-solid fa-wifi"></i>
+                        <h3>Free Wi-Fi</h3>
+                        <p>A perfect place for work, study, meetings, and chill time.</p>
+                    </div>
+                    <div class="why-card reveal">
+                        <i class="fa-solid fa-chair"></i>
+                        <h3>Cozy Ambience</h3>
+                        <p>Warm lighting, comfortable seating, and peaceful music.</p>
+                    </div>
+                    <div class="why-card reveal">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3>Quick Service</h3>
+                        <p>Fast preparation without compromising taste and quality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Gallery</p>
+                    <h2>Moments at Moonlight Cafe</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=700&q=80" alt="Cafe table">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=80" alt="Coffee art">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Cafe lights">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Cafe seating">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=700&q=80" alt="Coffee shop counter">
+                    <img class="reveal" src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=700&q=80" alt="Coffee preparation">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section with Slider -->
+        <section class="reviews section" id="reviews">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">Customer Reviews</p>
+                    <h2>What Our Customers Say</h2>
+                </div>
+
+                <div class="testimonial-slider reveal">
+                    <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous review">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <div class="testimonial active">
+                        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=300&q=80" alt="Customer photo">
+                        <p>“The ambience is beautiful and the coffee tastes amazing. Perfect place for evening hangouts.”</p>
+                        <h3>Aarohi Sharma</h3>
+                        <span>Regular Customer</span>
+                    </div>
+
+                    <div class="testimonial">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Customer photo">
+                        <p>“Loved the cold coffee and sandwich. Service was quick and staff was very polite.”</p>
+                        <h3>Rohan Mehta</h3>
+                        <span>Food Blogger</span>
+                    </div>
+
+                    <div class="testimonial">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Customer photo">
+                        <p>“Moonlight Cafe has a premium feel. The dessert and pizza are my favorites.”</p>
+                        <h3>Neha Verma</h3>
+                        <span>Student</span>
+                    </div>
+
+                    <button class="slider-btn next-btn" id="nextBtn" aria-label="Next review">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <p class="section-label">Contact Us</p>
+                    <h2>Book Your Table Today</h2>
+                    <p>Visit Moonlight Cafe and enjoy fresh coffee, food, and a peaceful premium experience.</p>
+
+                    <div class="contact-details">
+                        <p><i class="fa-solid fa-location-dot"></i> 21 Coffee Street, New Delhi, India</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fa-solid fa-envelope"></i> hello@moonlightcafe.com</p>
+                        <p><i class="fa-solid fa-clock"></i> Mon - Sun: 9:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+                    <h3>Contact Form</h3>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-message" id="formMessage"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="#home" class="logo footer-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    Moonlight <span>Cafe</span>
+                </a>
+                <p>Premium coffee, fresh bites, and cozy memories.</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Moonlight Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
